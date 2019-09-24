@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4304205321973E0D00F5BC2B /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4304205221973E0D00F5BC2B /* Helpers.swift */; };
+		4323E66521AAD24A00293EED /* MWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4323E66421AAD24A00293EED /* MWorkoutViewController.swift */; };
+		4349A9B521AF0CFF00D7A1FE /* MSingleWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4349A9B421AF0CFF00D7A1FE /* MSingleWorkoutViewController.swift */; };
+		434B788621985B79009B8CF9 /* MyIPAdress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434B788521985B79009B8CF9 /* MyIPAdress.swift */; };
+		435816E121ABEBC900BBA951 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435816E021ABEBC900BBA951 /* MenuViewController.swift */; };
+		435816E321ABEC6300BBA951 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435816E221ABEC6300BBA951 /* BaseViewController.swift */; };
+		435B72F721A5F4FB009F6A3C /* MHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435B72F621A5F4FB009F6A3C /* MHomeViewController.swift */; };
+		43684AB421B52B5700A908A1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43684AB321B52B5700A908A1 /* ProfileViewController.swift */; };
+		4370DEFF21EE79B1003FD622 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4370DEFE21EE79B1003FD622 /* Images.xcassets */; };
+		437D3928219637AD007A0F31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437D3927219637AD007A0F31 /* AppDelegate.swift */; };
+		437D392A219637AD007A0F31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437D3929219637AD007A0F31 /* ViewController.swift */; };
+		437D392D219637AD007A0F31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437D392B219637AD007A0F31 /* Main.storyboard */; };
+		437D3930219637AD007A0F31 /* fitWomanProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 437D392E219637AD007A0F31 /* fitWomanProject.xcdatamodeld */; };
+		437D3932219637AD007A0F31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 437D3931219637AD007A0F31 /* Assets.xcassets */; };
+		437D3935219637AD007A0F31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437D3933219637AD007A0F31 /* LaunchScreen.storyboard */; };
+		437D394021963F4C007A0F31 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437D393E21963F4B007A0F31 /* FBSDKCoreKit.framework */; };
+		437D394121963F4C007A0F31 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437D393F21963F4C007A0F31 /* FBSDKLoginKit.framework */; };
+		437D394321965E1B007A0F31 /* IMCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437D394221965E1B007A0F31 /* IMCViewController.swift */; };
+		439AEB212199763B00E5A401 /* IMCResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439AEB202199763B00E5A401 /* IMCResultViewController.swift */; };
+		439AEB232199788100E5A401 /* NumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439AEB222199788100E5A401 /* NumberTest.swift */; };
+		439B725121B821D90065A2DD /* AddMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439B725021B821D90065A2DD /* AddMealViewController.swift */; };
+		439B725321B82B130065A2DD /* AddIngredientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439B725221B82B130065A2DD /* AddIngredientViewController.swift */; };
+		439DE97221B7F1E80055C631 /* DietViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439DE97121B7F1E80055C631 /* DietViewController.swift */; };
+		439DE97421B7F64E0055C631 /* MealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439DE97321B7F64E0055C631 /* MealsViewController.swift */; };
+		43DF278221B8814600CAFB27 /* MealDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DF278121B8814600CAFB27 /* MealDetailViewController.swift */; };
+		43EBB3A021B1AE66004A19D4 /* MaddActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EBB39F21B1AE66004A19D4 /* MaddActivityViewController.swift */; };
+		43EBB3A221B1DCFE004A19D4 /* MAddActivityNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EBB3A121B1DCFE004A19D4 /* MAddActivityNextViewController.swift */; };
+		43EBB3A421B2AD73004A19D4 /* MActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EBB3A321B2AD73004A19D4 /* MActivitiesViewController.swift */; };
+		43FA565421BB1496004EE292 /* BMIHistoricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FA565321BB1496004EE292 /* BMIHistoricViewController.swift */; };
+		43FA565621BC069F004EE292 /* ActivitiesHistoricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FA565521BC069F004EE292 /* ActivitiesHistoricViewController.swift */; };
+		43FA565821BC06AE004EE292 /* MealsHistoricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FA565721BC06AE004EE292 /* MealsHistoricViewController.swift */; };
+		E62A9AC06DEA7502AC0476A5 /* Pods_fitWomanProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CD7CFD36AD36177C955E77 /* Pods_fitWomanProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39CD7CFD36AD36177C955E77 /* Pods_fitWomanProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fitWomanProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4304205221973E0D00F5BC2B /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		4323E66421AAD24A00293EED /* MWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWorkoutViewController.swift; sourceTree = "<group>"; };
+		4349A9B421AF0CFF00D7A1FE /* MSingleWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSingleWorkoutViewController.swift; sourceTree = "<group>"; };
+		434B788521985B79009B8CF9 /* MyIPAdress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIPAdress.swift; sourceTree = "<group>"; };
+		435816E021ABEBC900BBA951 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		435816E221ABEC6300BBA951 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		435B72F621A5F4FB009F6A3C /* MHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHomeViewController.swift; sourceTree = "<group>"; };
+		435B72F821A5F9A8009F6A3C /* fitWomanProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = fitWomanProject.entitlements; sourceTree = "<group>"; };
+		43684AB321B52B5700A908A1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		4370DEFE21EE79B1003FD622 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		437D3924219637AD007A0F31 /* fitWomanProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fitWomanProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		437D3927219637AD007A0F31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		437D3929219637AD007A0F31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		437D392C219637AD007A0F31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		437D392F219637AD007A0F31 /* fitWomanProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fitWomanProject.xcdatamodel; sourceTree = "<group>"; };
+		437D3931219637AD007A0F31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		437D3934219637AD007A0F31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		437D3936219637AD007A0F31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		437D393E21963F4B007A0F31 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		437D393F21963F4C007A0F31 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		437D394221965E1B007A0F31 /* IMCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCViewController.swift; sourceTree = "<group>"; };
+		439AEB202199763B00E5A401 /* IMCResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCResultViewController.swift; sourceTree = "<group>"; };
+		439AEB222199788100E5A401 /* NumberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTest.swift; sourceTree = "<group>"; };
+		439B725021B821D90065A2DD /* AddMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMealViewController.swift; sourceTree = "<group>"; };
+		439B725221B82B130065A2DD /* AddIngredientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIngredientViewController.swift; sourceTree = "<group>"; };
+		439DE97121B7F1E80055C631 /* DietViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietViewController.swift; sourceTree = "<group>"; };
+		439DE97321B7F64E0055C631 /* MealsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsViewController.swift; sourceTree = "<group>"; };
+		43DF278121B8814600CAFB27 /* MealDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailViewController.swift; sourceTree = "<group>"; };
+		43EBB39F21B1AE66004A19D4 /* MaddActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaddActivityViewController.swift; sourceTree = "<group>"; };
+		43EBB3A121B1DCFE004A19D4 /* MAddActivityNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAddActivityNextViewController.swift; sourceTree = "<group>"; };
+		43EBB3A321B2AD73004A19D4 /* MActivitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MActivitiesViewController.swift; sourceTree = "<group>"; };
+		43FA565321BB1496004EE292 /* BMIHistoricViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIHistoricViewController.swift; sourceTree = "<group>"; };
+		43FA565521BC069F004EE292 /* ActivitiesHistoricViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesHistoricViewController.swift; sourceTree = "<group>"; };
+		43FA565721BC06AE004EE292 /* MealsHistoricViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsHistoricViewController.swift; sourceTree = "<group>"; };
+		F2C46DFE8B3EDBC799F8015F /* Pods-fitWomanProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fitWomanProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fitWomanProject/Pods-fitWomanProject.debug.xcconfig"; sourceTree = "<group>"; };
+		FC43EDD87DB00380189AE2B3 /* Pods-fitWomanProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fitWomanProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-fitWomanProject/Pods-fitWomanProject.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		437D3921219637AC007A0F31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437D394121963F4C007A0F31 /* FBSDKLoginKit.framework in Frameworks */,
+				437D394021963F4C007A0F31 /* FBSDKCoreKit.framework in Frameworks */,
+				E62A9AC06DEA7502AC0476A5 /* Pods_fitWomanProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		437D391B219637AC007A0F31 = {
+			isa = PBXGroup;
+			children = (
+				437D393E21963F4B007A0F31 /* FBSDKCoreKit.framework */,
+				437D3926219637AD007A0F31 /* fitWomanProject */,
+				437D3925219637AD007A0F31 /* Products */,
+				B854F2597FA720ED0A7EE20F /* Pods */,
+				68294484A1EFAD1ED6E8FE0C /* Frameworks */,
+				437D393F21963F4C007A0F31 /* FBSDKLoginKit.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		437D3925219637AD007A0F31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				437D3924219637AD007A0F31 /* fitWomanProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		437D3926219637AD007A0F31 /* fitWomanProject */ = {
+			isa = PBXGroup;
+			children = (
+				435B72F821A5F9A8009F6A3C /* fitWomanProject.entitlements */,
+				437D3927219637AD007A0F31 /* AppDelegate.swift */,
+				434B788521985B79009B8CF9 /* MyIPAdress.swift */,
+				437D3929219637AD007A0F31 /* ViewController.swift */,
+				437D394221965E1B007A0F31 /* IMCViewController.swift */,
+				439AEB202199763B00E5A401 /* IMCResultViewController.swift */,
+				435B72F621A5F4FB009F6A3C /* MHomeViewController.swift */,
+				437D392B219637AD007A0F31 /* Main.storyboard */,
+				437D3931219637AD007A0F31 /* Assets.xcassets */,
+				437D3933219637AD007A0F31 /* LaunchScreen.storyboard */,
+				437D3936219637AD007A0F31 /* Info.plist */,
+				437D392E219637AD007A0F31 /* fitWomanProject.xcdatamodeld */,
+				4304205221973E0D00F5BC2B /* Helpers.swift */,
+				439AEB222199788100E5A401 /* NumberTest.swift */,
+				435816E221ABEC6300BBA951 /* BaseViewController.swift */,
+				435816E021ABEBC900BBA951 /* MenuViewController.swift */,
+				4323E66421AAD24A00293EED /* MWorkoutViewController.swift */,
+				4349A9B421AF0CFF00D7A1FE /* MSingleWorkoutViewController.swift */,
+				43EBB39F21B1AE66004A19D4 /* MaddActivityViewController.swift */,
+				43EBB3A121B1DCFE004A19D4 /* MAddActivityNextViewController.swift */,
+				43EBB3A321B2AD73004A19D4 /* MActivitiesViewController.swift */,
+				439DE97121B7F1E80055C631 /* DietViewController.swift */,
+				439DE97321B7F64E0055C631 /* MealsViewController.swift */,
+				439B725021B821D90065A2DD /* AddMealViewController.swift */,
+				439B725221B82B130065A2DD /* AddIngredientViewController.swift */,
+				43DF278121B8814600CAFB27 /* MealDetailViewController.swift */,
+				43684AB321B52B5700A908A1 /* ProfileViewController.swift */,
+				43FA565321BB1496004EE292 /* BMIHistoricViewController.swift */,
+				43FA565521BC069F004EE292 /* ActivitiesHistoricViewController.swift */,
+				43FA565721BC06AE004EE292 /* MealsHistoricViewController.swift */,
+				4370DEFE21EE79B1003FD622 /* Images.xcassets */,
+			);
+			path = fitWomanProject;
+			sourceTree = "<group>";
+		};
+		68294484A1EFAD1ED6E8FE0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39CD7CFD36AD36177C955E77 /* Pods_fitWomanProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B854F2597FA720ED0A7EE20F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2C46DFE8B3EDBC799F8015F /* Pods-fitWomanProject.debug.xcconfig */,
+				FC43EDD87DB00380189AE2B3 /* Pods-fitWomanProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		437D3923219637AC007A0F31 /* fitWomanProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437D3939219637AD007A0F31 /* Build configuration list for PBXNativeTarget "fitWomanProject" */;
+			buildPhases = (
+				BB349844CF76C64083CF541C /* [CP] Check Pods Manifest.lock */,
+				437D3920219637AC007A0F31 /* Sources */,
+				437D3921219637AC007A0F31 /* Frameworks */,
+				437D3922219637AC007A0F31 /* Resources */,
+				1DFDACD667D50C7F12BBE998 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fitWomanProject;
+			productName = fitWomanProject;
+			productReference = 437D3924219637AD007A0F31 /* fitWomanProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		437D391C219637AC007A0F31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = marwa;
+				TargetAttributes = {
+					437D3923219637AC007A0F31 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 437D391F219637AC007A0F31 /* Build configuration list for PBXProject "fitWomanProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 437D391B219637AC007A0F31;
+			productRefGroup = 437D3925219637AD007A0F31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				437D3923219637AC007A0F31 /* fitWomanProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		437D3922219637AC007A0F31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437D3935219637AD007A0F31 /* LaunchScreen.storyboard in Resources */,
+				4370DEFF21EE79B1003FD622 /* Images.xcassets in Resources */,
+				437D3932219637AD007A0F31 /* Assets.xcassets in Resources */,
+				437D392D219637AD007A0F31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DFDACD667D50C7F12BBE998 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-fitWomanProject/Pods-fitWomanProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fitWomanProject/Pods-fitWomanProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB349844CF76C64083CF541C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fitWomanProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		437D3920219637AC007A0F31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43FA565821BC06AE004EE292 /* MealsHistoricViewController.swift in Sources */,
+				43EBB3A221B1DCFE004A19D4 /* MAddActivityNextViewController.swift in Sources */,
+				437D392A219637AD007A0F31 /* ViewController.swift in Sources */,
+				437D3928219637AD007A0F31 /* AppDelegate.swift in Sources */,
+				43EBB3A021B1AE66004A19D4 /* MaddActivityViewController.swift in Sources */,
+				43FA565621BC069F004EE292 /* ActivitiesHistoricViewController.swift in Sources */,
+				4323E66521AAD24A00293EED /* MWorkoutViewController.swift in Sources */,
+				434B788621985B79009B8CF9 /* MyIPAdress.swift in Sources */,
+				43684AB421B52B5700A908A1 /* ProfileViewController.swift in Sources */,
+				435816E121ABEBC900BBA951 /* MenuViewController.swift in Sources */,
+				435816E321ABEC6300BBA951 /* BaseViewController.swift in Sources */,
+				437D394321965E1B007A0F31 /* IMCViewController.swift in Sources */,
+				439AEB232199788100E5A401 /* NumberTest.swift in Sources */,
+				4304205321973E0D00F5BC2B /* Helpers.swift in Sources */,
+				439B725321B82B130065A2DD /* AddIngredientViewController.swift in Sources */,
+				435B72F721A5F4FB009F6A3C /* MHomeViewController.swift in Sources */,
+				437D3930219637AD007A0F31 /* fitWomanProject.xcdatamodeld in Sources */,
+				439AEB212199763B00E5A401 /* IMCResultViewController.swift in Sources */,
+				4349A9B521AF0CFF00D7A1FE /* MSingleWorkoutViewController.swift in Sources */,
+				43DF278221B8814600CAFB27 /* MealDetailViewController.swift in Sources */,
+				439DE97421B7F64E0055C631 /* MealsViewController.swift in Sources */,
+				439B725121B821D90065A2DD /* AddMealViewController.swift in Sources */,
+				43EBB3A421B2AD73004A19D4 /* MActivitiesViewController.swift in Sources */,
+				43FA565421BB1496004EE292 /* BMIHistoricViewController.swift in Sources */,
+				439DE97221B7F1E80055C631 /* DietViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		437D392B219637AD007A0F31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				437D392C219637AD007A0F31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		437D3933219637AD007A0F31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				437D3934219637AD007A0F31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		437D3937219637AD007A0F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		437D3938219637AD007A0F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		437D393A219637AD007A0F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2C46DFE8B3EDBC799F8015F /* Pods-fitWomanProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = fitWomanProject/fitWomanProject.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G96V29LG5G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = fitWomanProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sim.fitWomanProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		437D393B219637AD007A0F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC43EDD87DB00380189AE2B3 /* Pods-fitWomanProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = fitWomanProject/fitWomanProject.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G96V29LG5G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = fitWomanProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sim.fitWomanProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		437D391F219637AC007A0F31 /* Build configuration list for PBXProject "fitWomanProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437D3937219637AD007A0F31 /* Debug */,
+				437D3938219637AD007A0F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		437D3939219637AD007A0F31 /* Build configuration list for PBXNativeTarget "fitWomanProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437D393A219637AD007A0F31 /* Debug */,
+				437D393B219637AD007A0F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		437D392E219637AD007A0F31 /* fitWomanProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				437D392F219637AD007A0F31 /* fitWomanProject.xcdatamodel */,
+			);
+			currentVersion = 437D392F219637AD007A0F31 /* fitWomanProject.xcdatamodel */;
+			path = fitWomanProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 437D391C219637AC007A0F31 /* Project object */;
+}
